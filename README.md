@@ -15,17 +15,17 @@ This table tracks my progress through each phase of the program.
 
 | Week  | Topic                                 | Status        | Link to Work             |
 |:-----:|---------------------------------------|:-------------:|--------------------------|
-| Week 0| ⚙️ Environment and Tool Setup         | ✅ Completed  | [Week 0 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-0) |
-| Week 1| 🔧 RTL Synthesis & GLS                | ✅ Completed  | [Week 1 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-1) |
-| Week 2| 🏗️ Combinational & Sequential Logic   | ⏳ In Progress| [Week 2 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-2) |
-| Week 3| 🧮 Timing Analysis & Optimization    | ⏳ Upcoming   | [Week 3 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-3) |
-| Week 4| 🗂️ Floorplanning & Placement         | ⏳ Upcoming   | [Week 4 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-4) |
-| Week 5| 🔄 Clock Tree Synthesis (CTS)         | ⏳ Upcoming   | [Week 5 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-5) |
-| Week 6| 🚦 Routing & Verification (DRC/LVS)   | ⏳ Upcoming   | [Week 6 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-6) |
-| Week 7| ⚡ Power Grid Generation & IR Drop   | ⏳ Upcoming   | [Week 7 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-7) |
-| Week 8| 🛠️ Sign-off Checks                     | ⏳ Upcoming   | [Week 8 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-8) |
-| Week 9| 📦 SoC Integration & Assembly         | ⏳ Upcoming   | [Week 9 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-9) |
-| Week 10|🎉 GDSII Generation & Tapeout         | ⏳ Upcoming   | [Week 10 Details](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-10)|
+| Week 0| ⚙️ Environment and Tool Setup         | ✅ Completed  | [Week 0](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-0) |
+| Week 1| 🔧 RTL Synthesis & GLS                | ✅ Completed  | [Week 1](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-1) |
+| Week 2| 🏗️ Combinational & Sequential Logic   | ⏳ In Progress| [Week 2](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-2) |
+| Week 3| 🧮 Timing Analysis & Optimization    | ⏳ Upcoming   | [Week 3](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-3) |
+| Week 4| 🗂️ Floorplanning & Placement         | ⏳ Upcoming   | [Week 4](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-4) |
+| Week 5| 🔄 Clock Tree Synthesis (CTS)         | ⏳ Upcoming   | [Week 5](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-5) |
+| Week 6| 🚦 Routing & Verification (DRC/LVS)   | ⏳ Upcoming   | [Week 6](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-6) |
+| Week 7| ⚡ Power Grid Generation & IR Drop   | ⏳ Upcoming   | [Week 7](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-7) |
+| Week 8| 🛠️ Sign-off Checks                     | ⏳ Upcoming   | [Week 8](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-8) |
+| Week 9| 📦 SoC Integration & Assembly         | ⏳ Upcoming   | [Week 9](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-9) |
+| Week 10|🎉 GDSII Generation & Tapeout         | ⏳ Upcoming   | [Week 10](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-10)|
 
 ---
 ## 🎯 My Goals for This Program
