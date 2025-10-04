@@ -159,12 +159,12 @@ gtkwave pre_synth_sim.vcd
 #### C. Expected Results
 
 1.  **CPU Core and Memory Interface:**
-    ![CPU Waveform](output_snapshots/pre_synth_CPU)
+    ![CPU Waveform](output_snapshots/pre_synth_CPU.png)
     - *Hierarchy:* `vsdbabysoc_tb` -> `u_dut` -> `core` -> `L1_CPU_dmem`
     - *Analysis:* At timestamp **1657 ns**, signals indicate the CPU is performing a memory read (`CPU_dmem_rd_en` is high). The core successfully places the value **`0x313`** onto the top-level `OUT[9:0]` bus, verifying a successful read and output operation.
 
 2.  **Digital-to-Analog Converter (DAC) Verification:**
-![PDAC Waveform](output_snapshots/pre_synth_DAC)
+![PDAC Waveform](output_snapshots/pre_synth_DAC.png)
     - *Hierarchy:* `vsdbabysoc_tb` -> `u_dut` -> `dac`
     - *Analysis:* At timestamp **165.7 ns** (`165700 ps`), the DAC's input `D[9:0]` correctly shows the digital value **`17`**. The DAC's analog-style output (`OUT`) changes in response, confirming that the data path from the SoC bus to the DAC is functional.
 
@@ -172,7 +172,7 @@ gtkwave pre_synth_sim.vcd
     - *Hierarchy:* `vsdbabysoc_tb` -> `u_dut` -> `pll`
     - *Analysis:* At timestamp **1225 ns**, the waveforms confirm the PLL is stable and active. The lower-frequency `REF` (reference clock) signal is successfully used to generate the higher-frequency system `CLK`, verifying that the SoC's clock generation unit is working as expected.
 
-    ![PLL Waveform](output_snapshots/pre_synth_PLL)
+    ![PLL Waveform](output_snapshots/pre_synth_PLL.png)
 
 ---
 
@@ -224,7 +224,7 @@ yosys -s synthesis.ys
 ```
 #### C. Synthesis Outputs
 Yosys will generate the final gate-level netlist at `reports/vsdbabysoc_netlist.v` and print area and cell statistics in the terminal.
-![Synthesis Statistics](output_snapshots/synthesis_statistics)
+![Synthesis Statistics](output_snapshots/synthesis_statistics.png)
 
 ---
 
@@ -259,8 +259,8 @@ Open the resulting waveform file with GTKWave. Your testbench should be configur
 gtkwave dump.vcd
 ```
 The waveforms should functionally match the results from the pre-synthesis simulation, confirming the synthesis was successful.
-![Post-Synthesis Waveform 1](output_snapshots/post_synth_waveform_1)
-![Post-Synthesis Waveform 2](output_snapshots/post_synth_waveform_2)
+![Post-Synthesis Waveform 1](output_snapshots/post_synth_waveform_1.png)
+![Post-Synthesis Waveform 2](output_snapshots/post_synth_waveform_2.png)
 
 ---
 
