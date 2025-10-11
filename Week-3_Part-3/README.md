@@ -159,11 +159,6 @@ TCL script loops over Liberty files, generates reports:
 - sta_tns.txt → total negative slack  
 - sta_wns.txt → worst negative slack  
 
-![Min Slack](output_snapshots/plot_minimum_slack_pvt_corner.png)  
-![TNS](output_snapshots/plot_tns_pvt_corner.png)  
-![WNS](output_snapshots/plot_wns_pvt_corner.png)  
-![Worst Slack](output_snapshots/plot_wost_slack_pvt_corner.png)
-
 ## Python Scripts for Plotting
 
 ### `plot_min_max_slack.py`
@@ -183,7 +178,8 @@ plt.savefig("output_snapshots/worst_slack_plot.png")
 plt.show()
 ```
 
-![Worst Slack Plot](output_snapshots/worst_slack_plot.png)
+![Min Slack](output_snapshots/plot_minimum_slack_pvt_corner.png)  
+![Worst Slack](output_snapshots/plot_wost_slack_pvt_corner.png)
 
 ### `plot_tns_wns.py`
 ```python
@@ -202,4 +198,5 @@ plt.savefig("output_snapshots/tns_wns_plot.png")
 plt.show()
 ```
 
-![TNS & WNS Plot](output_snapshots/tns_wns_plot.png)
+![TNS](output_snapshots/plot_tns_pvt_corner.png)  
+![WNS](output_snapshots/plot_wns_pvt_corner.png)  
