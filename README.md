@@ -18,8 +18,8 @@ This table tracks my progress through each phase of the program.
 | Week 0| ⚙️ Environment and Tool Setup         | ✅ Completed  | [Week 0](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-0) |
 | Week 1| 🔧 RTL Synthesis & GLS                | ✅ Completed  | [Week 1](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-1) |
 | Week 2| 🏗️ BabySOC and Functional Modelling   | ✅ Completed  | [Week 2](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-2) |
-| Week 3| 🧮 Timing Analysis & Optimization    | ⏳ In Progress | [Week 3](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-3) |
-| Week 4| 🗂️ Floorplanning & Placement         | ⏳ Upcoming   | [Week 4](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-4) |
+| Week 3| 🧮 Timing Analysis & Optimization    | ✅ Completed | [Week 3](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-3) |
+| Week 4| 🗂️ Floorplanning & Placement         | ⏳ In Progress  | [Week 4](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-4) |
 | Week 5| 🔄 Clock Tree Synthesis (CTS)         | ⏳ Upcoming   | [Week 5](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-5) |
 | Week 6| 🚦 Routing & Verification (DRC/LVS)   | ⏳ Upcoming   | [Week 6](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-6) |
 | Week 7| ⚡ Power Grid Generation & IR Drop   | ⏳ Upcoming   | [Week 7](https://github.com/C0UCH-P0TAT0/RiscV_SOC/tree/Week-7) |
