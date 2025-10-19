@@ -49,7 +49,7 @@
 ---
 
 ## 5. CMOS Inverter VTC Curve
-![Inverter Noise Margin VTC](output_snapshots/ngspice_noise_margin.jpeg)
+![Inverter VTC](output_snapshots/ngspice_inverter_vtc.jpeg)
 
 * **What you see:** We again observe the VTC curve, noting its stable high and low output levels that extend over wide ranges of input voltages.
 * **Why it happens (device physics):** The complementary PMOS/NMOS structure ensures that in a steady state, one transistor is fully on while the other is fully off. This creates a low-impedance path to either $V_{DD}$ or Ground, resulting in very stable output logic levels that are robust against small fluctuations.
@@ -58,6 +58,7 @@
 ---
 
 ## 6. Inverter's Noise Margin
+![Inverter Noise Margin VTC](output_snapshots/ngspice_noise_margin.jpeg)
 * **What you see:** By identifying the points on the VTC where the slope is -1 ($V_{IL}$ and $V_{IH}$), we can calculate the **noise margins** for both low ($NM_L$) and high ($NM_H$) logic levels. For this inverter, both margins are large and roughly equal.
 * **Why it happens (device physics):** These margins exist because there is a wide "buffer zone" of input voltages that produce a valid high or low output. The region between $V_{IL}$ and $V_{IH}$ is the uncertain transition zone. The size of the valid input regions relative to the output levels defines the circuit's immunity to noise.
 * **How this ties back to STA concepts:** Robust noise margins are critical for reliable timing. Noise can cause a signal to cross the switching threshold earlier or later than expected, adding **jitter** and uncertainty to a timing path. If noise is large enough to violate the noise margin, the circuit can fail functionally, making any timing analysis invalid. Advanced STA tools incorporate noise analysis (crosstalk) to ensure these margins are not violated.
